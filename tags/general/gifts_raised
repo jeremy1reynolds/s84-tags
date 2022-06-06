@@ -1,0 +1,23 @@
+[[T9:[[?:::::::::::::: gifts_raised :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+  ::
+  ::  How many confirmed donations were received by current fundraiser
+  ::  (first self-donation and unconfirmed gifts not excluded).
+  ::
+  ::  @references:    TeamRaiser Context, Participant Record
+  ::  @dependencies:  S84 -- trID
+  ::
+  ::  @returns:       "5"
+  ::  @fail_states:   non-TR context, missing dependency
+  ::  @fail_result:   ""
+  ::  
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+    [[E130:
+       [[E48:[[S84:custom/common/trID]]-[[S1:cons_id]]:donations-all-confirmed]]
+       [[?xTRUEx::x[[E48:[[S84:custom/common/trID]]-[[S1:cons_id]]:if-is-self-donor]]x::1::0]]
+       -
+    ]]
+
+
+[[?:::::::::::::::::::::::::::::: END ::::::::::::::::::::::::::::::]]]]

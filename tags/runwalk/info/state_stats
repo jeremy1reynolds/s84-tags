@@ -1,0 +1,40 @@
+[[T9:[[?:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   @require  -  S42:state
+   @require  -  S51:reus_nice_state
+   @require  -  S51:reus_state_statistics
+   @option   -  S80:do_state   (change the current state)
+   @option   -  S80:state_stat (override the state stat)
+   @success  -  "VA"
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+   
+[[?:::::: USE NATIONAL FIGURE FOR BLUEPRINT (UNLESS OVERRIDDEN) ::::::]]
+[[?::::::::::: AND USE S80:do_state INSTEAD (IF IT'S SET) ::::::::::::]]
+   
+   [[U0:stateAbbr=[[T9:
+      [[?xx::x[[S80:do_state]]x::
+         [[?xTRUEx::[[E42:[[S84:custom/common/trID]]:blueprint-bool]][[S80:ignoreBP]]x::
+               US
+            ::
+               [[E42:[[S84:custom/common/trID]]:state]]
+         ]]
+      ::
+         [[S80:do_state]]
+      ]]
+   ]]]]               
+
+   [[U0:PCinSTATE=[[E130:  [[S51:reus_state_statistics]]
+
+   ]]]]
+
+
+   [[?xx::x[[E47:[[S84:custom/common/trID]]:fr_info:1:event_location_state]]x::
+      [[E42:[[S84:custom/common/trID]]:state]]
+   ::
+      [[E47:[[S84:custom/common/trID]]:fr_info:1:event_location_state]]
+   ]]
+
+
+
+[[?:::::::::::::::::::::::::: END ::::::::::::::::::::::::::]]]]

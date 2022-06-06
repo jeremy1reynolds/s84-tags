@@ -1,0 +1,79 @@
+[[T9:[[?:::::::::::::: ryo_grouplist.html :::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+  ::
+  ::  Roll Your Own API -- Event Card JSON/HTML Renderer
+  ::
+  ::  Outputs TeamRaiser details in a custom format.
+  ::
+  ::  URL Params:
+  ::    pgwrap=n  ........always required if you don't want a bunch of HTML added to the result.
+  ::    format=json  .....returns a JSON object of event details. Omit for an HTML object instead.
+  ::    callback=____  ...respond with JSONP using specified callback. Omit for regular JSON.
+  ::    fr_id=_____  .....TeamRaiser ID of the event requested
+  ::
+  ::  Example requests:
+  ::    https://_____________/site/SPageNavigator/ryo_frDetails?pgwrap=n&fr_id=1234
+  ::    https://_____________/site/SPageNavigator/ryo_frDetails?pgwrap=n&fr_id=1234&format=json
+  ::    https://_____________/site/SPageNavigator/ryo_frDetails?pgwrap=n&fr_id=1234&format=json&callback=?
+  ::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+  [[?xjsonx::x[[S334:format]]x::
+
+    [[U8:text/javascript]][[?xx::x[[S334:callback]]x::::[[S334:callback]](]]{[[?xx::x[[S334:fr_id]]x::
+       "error": "Event ID is required."
+    ::
+       "city": "[[E42:[[S334:fr_id]]:city]]",
+       "state": "[[E42:[[S334:fr_id]]:state]]",
+       "customized-url": "[[E42:[[S334:fr_id]]:customized-url]]",
+       "url-slug": "[[E130:
+          [[T4:[[E42:[[S334:fr_id]]:customized-url]]]]
+          "http://www.zeroprostatecancerendurance.org/" "" replaceall
+       ]]",
+       "registration-limit-type": "[[E42:[[S334:fr_id]]:registration-limit-type]]",
+       "public-event-type": "[[E42:[[S334:fr_id]]:public-event-type]]",
+       "event-class": "[[E130:
+           [[T4:[[E42:[[S334:fr_id]]:public-event-type]]]] dup dup
+           Race diy replaceall
+           Triathlon tri replaceall
+           Run run replaceall
+       ]]",
+       "num-participants": "[[E42:[[S334:fr_id]]:num-participants]]",
+       "num-donors": "[[E42:[[S334:fr_id]]:num-donors]]",
+       "num-donations": "[[E42:[[S334:fr_id]]:num-donations]]",
+       "location-name": "[[E42:[[S334:fr_id]]:location-name]]",
+       "fr-id": "[[E42:[[S334:fr_id]]:fr-id]]",
+       "event-date": "[[E42:[[S334:fr_id]]:event-date]]",
+       "dollars": "[[E42:[[S334:fr_id]]:dollars]]",
+       "type": "[[E42:[[S334:fr_id]]:type]]",
+       "zip": "[[E42:[[S334:fr_id]]:zip]]",
+       "title": "[[E42:[[S334:fr_id]]:title]]",
+       "reg-fees": "[[E42:[[S334:fr_id]]:reg-fees]]",
+       "sec-cat": "[[E42:[[S334:fr_id]]:sec-cat]]",
+       "affliate-type": "[[E42:[[S334:fr_id]]:affliate-type]]",
+       "event_location": "[[E47:[[S334:fr_id]]:fr_info:1:event_location]]",
+       "GP-event_title": "[[E47:[[S334:fr_id]]:fr_info:1:event_title]]",
+       "GP-sponsor_1": "[[E47:[[S334:fr_id]]:fr_info:1:sponsor_1]]",
+       "GP-map_link": "[[E47:[[S334:fr_id]]:fr_info:1:map_link]]",
+       "GP-event_location": "[[E47:[[S334:fr_id]]:fr_info:1:event_location]]",
+       "GP-event_date": "[[E47:[[S334:fr_id]]:fr_info:1:event_date]]",
+       "GP-event_location_state": "[[E47:[[S334:fr_id]]:fr_info:1:event_location_state]]"
+    ]]}[[?xx::x[[S334:callback]]x::::)]]
+
+  ::
+
+    [[?xx::x[[S334:fr_id]]x::<p>Feed me an event ID, Seymore.</p>::
+    <div class="card [[E130: [[T4:[[E42:[[S334:fr_id]]:public-event-type]]]] dup dup
+       Race diy replaceall     Triathlon tri replaceall     Run run replaceall ]]">
+          <h3><a href="[[S11:26:unformatted]]/endurance?fr_id=[[S334:fr_id]]&pg=entry"><img src="[[E47:[[S334:fr_id]]:fr_info:1:sponsor_1]]" alt="[[?xx::x[[E47:[[S334:fr_id]]:fr_info:1:event_title]]x::[[E42:[[S334:fr_id]]:title]]::[[E47:[[S334:fr_id]]:fr_info:1:event_title]]]]"></a></h3>
+          <time>[[E47:[[S334:fr_id]]:fr_info:1:event_date]]</time>
+          <nav>
+             <a href="[[S11:26:unformatted]]/endurance?fr_id=[[S334:fr_id]]&pg=entry" class="button info">Learn More</a>
+             <a href="[[S11:27:unformatted]]/endurance?pg=tfind&fr_id=[[S334:fr_id]]&fr_tm_opt=none" class="button action">Register</a>
+          </nav>
+       </div>
+    ]]
+
+  ]]
+
+
+[[?:::::::::::::::::::::::::::::: END ::::::::::::::::::::::::::::::]]]]

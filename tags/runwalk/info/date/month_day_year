@@ -1,0 +1,42 @@
+[[T9:[[?::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   @setting  -  Step 1. > Event Date
+   @returns  -  "September 3, 2019"
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+    [[E130:
+      [[T8:[[E42:[[S84:custom/common/trID]]:event-date]]]]
+      dup  dup  0  swap  "/"  indexof  1  +  substring
+
+        "12/"       "December "     replaceall
+        "11/"       "November "     replaceall
+        "10/"       "October "      replaceall
+        "09/"       "September "    replaceall
+        "08/"       "August "       replaceall
+        "07/"       "July "         replaceall
+        "06/"       "June "         replaceall
+        "05/"       "May "          replaceall
+        "04/"       "April "        replaceall
+        "03/"       "March "        replaceall
+        "02/"       "February "     replaceall
+        "01/"       "January "      replaceall
+      
+      swap dup dup "/" indexof 1 + swap length substring
+      
+        "01/"       "1/"            replaceall
+        "02/"       "2/"            replaceall
+        "03/"       "3/"            replaceall
+        "04/"       "4/"            replaceall
+        "05/"       "5/"            replaceall
+        "06/"       "6/"            replaceall
+        "07/"       "7/"            replaceall
+        "08/"       "8/"            replaceall
+        "09/"       "9/"            replaceall
+        "/"         ", "            replaceall
+      
+      concat
+    ]]
+
+
+
+[[?:::::::::::::::::::::::::: END ::::::::::::::::::::::::::]]]]

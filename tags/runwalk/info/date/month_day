@@ -1,0 +1,16 @@
+[[T9:[[?::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   @setting  -  Step 1. > Event Date
+   @returns  -  "September 3"
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+
+   [[E130:
+      [[T8:[[S84:custom/reusables/runwalk/info/date/month_day_year]]]]
+      dup "," lastindexof 0 swap substring dup dup
+      "," indexof 1 + swap length substring
+   ]]
+
+
+
+[[?:::::::::::::::::::::::::: END ::::::::::::::::::::::::::]]]]

@@ -1,0 +1,13 @@
+[[T9:[[?:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   @require  -  C1:event_location  (location settings fallback)
+   @success  -  "Central Park"
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+   [[?xx::x[[E47:[[S84:custom/common/trID]]:fr_info:1:event_location]]x::
+      [[E42:[[S84:custom/common/trID]]:location-name]]
+   ::
+      [[E47:[[S84:custom/common/trID]]:fr_info:1:event_location]]
+   ]]
+
+[[?:::::::::::::::::::::::::: END ::::::::::::::::::::::::::]]]]

@@ -1,0 +1,21 @@
+[[T9:[[?:::::::::::::: knows_gg :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+  ::
+  ::  Takes an educated guess as to whether the email recipient knows about Grow & Give,
+  ::  allowing for customized messaging for those who were signed up by a friend/co-worker.
+  ::
+  ::  @references:    System Data
+  ::  @dependencies:  S84 -- cons_src
+  ::
+  ::  @returns:       [[S80:knows_gg]] == "yes" || ""
+  ::  @fail_states:   missing dependency
+  ::  @fail_result:   [[S80:knows_gg]] == ""
+  ::  
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+    [[?xnewx::x[[S84:custom/common/cons_src]]x::
+        [[U0:knows_gg=]]::[[U1:knows_gg=yes]]
+    ]]
+
+
+[[?:::::::::::::::::::::::::::::: END ::::::::::::::::::::::::::::::]]]]

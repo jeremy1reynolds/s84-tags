@@ -1,0 +1,14 @@
+[[T9:[[?::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   @about    -  Spells out abbreviation, favoring "official" state
+   @setting  -  Step 3. > Location Details
+   @returns  -  "Alabama"
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+   [[?x0x::x[[E130: [[T8:[[S84:custom/reusables/runwalk/info/location/official_state]]]] length 2 ==]]x::::
+      [[E130:   
+         [[T8:[[S84:custom/reusables/runwalk/info/location/official_state]]]]
+              [[S84:custom/reusables/runwalk/info/location/unabbreviate_state]]
+      ]]
+   ]]
+
+[[?:::::::::::::::::::::::::::::: END ::::::::::::::::::::::::::::::]]]]

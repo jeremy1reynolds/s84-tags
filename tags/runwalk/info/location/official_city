@@ -1,0 +1,14 @@
+[[T9:[[?:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   @require  -  Step 3 > City (Step 13 C1:event_location_city fallback)
+   @success  -  "Washington, D.C."
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+   [[?xx::x[[E42:[[S84:custom/common/trID]]:city]]x::
+      [[E47:[[S84:custom/common/trID]]:fr_info:1:event_location_city]]
+   ::
+      [[E42:[[S84:custom/common/trID]]:city]]
+   ]]
+
+
+[[?:::::::::::::::::::::::::: END ::::::::::::::::::::::::::]]]]

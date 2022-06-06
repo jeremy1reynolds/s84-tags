@@ -1,0 +1,39 @@
+[[T9:[[?:::::::::::::: uppercase ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+  ::
+  ::  Homemade S130 operator, uppercases string.
+  ::
+  ::  @references:    current RPN expression
+  ::
+  ::  @returns:       lowercase string  (e.g. "RaNDOm StriNG" --> "RANDOM STRING" )
+  ::  @fail_states:   Would print its guts if you don't have it in an S/E130 tag.
+  ::  
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+      "a"     "A"     replaceall
+      "b"     "B"     replaceall
+      "c"     "C"     replaceall
+      "d"     "D"     replaceall
+      "e"     "E"     replaceall
+      "f"     "F"     replaceall
+      "g"     "G"     replaceall
+      "h"     "H"     replaceall
+      "i"     "I"     replaceall
+      "j"     "J"     replaceall
+      "k"     "K"     replaceall
+      "l"     "L"     replaceall
+      "m"     "M"     replaceall
+      "n"     "N"     replaceall
+      "o"     "O"     replaceall
+      "p"     "P"     replaceall
+      "q"     "Q"     replaceall
+      "r"     "R"     replaceall
+      "s"     "S"     replaceall
+      "t"     "T"     replaceall
+      "u"     "U"     replaceall
+      "v"     "V"     replaceall
+      "w"     "W"     replaceall
+      "x"     "X"     replaceall
+      "y"     "Y"     replaceall
+      "z"     "Z"     replaceall
+
+[[?:::::::::::::::::::::::::::::: END ::::::::::::::::::::::::::::::]]]]

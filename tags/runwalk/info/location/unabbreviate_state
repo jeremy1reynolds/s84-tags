@@ -1,0 +1,84 @@
+[[T9:[[?::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   @setting  -  Step 3. > Location Details
+   @returns  -  "Alabama"
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+      AA     "Armed Forces Americas"     replaceall
+      AB     "Alberta"                   replaceall
+      AE     "Armed Forces Europe"       replaceall
+      AK     "Alaska"                    replaceall
+      AL     "Alabama"                   replaceall
+      AP     "Armed Forces Pacific"      replaceall
+      AR     "Arkansas"                  replaceall
+      AS     "American Samoa"            replaceall
+      AZ     "Arizona"                   replaceall
+      BC     "British Columbia"          replaceall
+      CA     "California"                replaceall
+      CD     "Canada"                    replaceall
+      CO     "Colorado"                  replaceall
+      CT     "Connecticut"               replaceall
+      DC     "D.C."                      replaceall
+      DE     "Delaware"                  replaceall
+      FF     "Foreign Countries"         replaceall
+      FL     "Florida"                   replaceall
+      GA     "Georgia"                   replaceall
+      GU     "Guam"                      replaceall
+      HI     "Hawaii"                    replaceall
+      IA     "Iowa"                      replaceall
+      ID     "Idaho"                     replaceall
+      IL     "Illinois"                  replaceall
+      IN     "Indiana"                   replaceall
+      KS     "Kansas"                    replaceall
+      KY     "Kentucky"                  replaceall
+      LA     "Louisiana"                 replaceall
+      MA     "Massachusetts"             replaceall
+      MB     "Manitoba"                  replaceall
+      MD     "Maryland"                  replaceall
+      ME     "Maine"                     replaceall
+      MI     "Michigan"                  replaceall
+      MN     "Minnesota"                 replaceall
+      MO     "Missouri"                  replaceall
+      MS     "Mississippi"               replaceall
+      MT     "Montana"                   replaceall
+      MX     "Mexico"                    replaceall
+      NB     "New Brunswick"             replaceall
+      NC     "North Carolina"            replaceall
+      ND     "North Dakota"              replaceall
+      NE     "Nebraska"                  replaceall
+      NH     "New Hampshire"             replaceall
+      NJ     "New Jersey"                replaceall
+      NL     "Newfoundland/Labrador"     replaceall
+      NM     "New Mexico"                replaceall
+      NS     "Nova Scotia"               replaceall
+      NT     "Northwest Territories"     replaceall
+      NU     "Nunavut"                   replaceall
+      NV     "Nevada"                    replaceall
+      NY     "New York"                  replaceall
+      OH     "Ohio"                      replaceall
+      OK     "Oklahoma"                  replaceall
+      ON     "Ontario"                   replaceall
+      OR     "Oregon"                    replaceall
+      PA     "Pennsylvania"              replaceall
+      PE     "Prince Edward Island"      replaceall
+      PR     "Puerto Rico"               replaceall
+      QC     "Quebec"                    replaceall
+      RI     "Rhode Island"              replaceall
+      SC     "South Carolina"            replaceall
+      SD     "South Dakota"              replaceall
+      SK     "Saskatchewan"              replaceall
+      TN     "Tennessee"                 replaceall
+      TT     "Trust Territory"           replaceall
+      TX     "Texas"                     replaceall
+      UN     "Unknown"                   replaceall
+      UT     "Utah"                      replaceall
+      VA     "Virginia"                  replaceall
+      VI     "Virgin Islands"            replaceall
+      VT     "Vermont"                   replaceall
+      WA     "Washington"                replaceall
+      WI     "Wisconsin"                 replaceall
+      WV     "West Virginia"             replaceall
+      WY     "Wyoming"                   replaceall
+      YT     "Yukon"                     replaceall
+      US     "United States"             replaceall
+
+[[?:::::::::::::::::::::::::::::: END ::::::::::::::::::::::::::::::]]]]

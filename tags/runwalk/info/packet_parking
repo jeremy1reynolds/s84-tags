@@ -1,0 +1,15 @@
+[[T9:[[?::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   @option1 -  S80:racePacketPickup
+   @option2 -  S80:raceParking
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+[[?xx::x[[S80:racePacketPickup]]x::::
+   <p><span class="bold">Early Packet Pick-up:</span> [[S80:racePacketPickup]]</p>
+]]
+[[?xx::x[[S80:raceParking]]x::::
+   <p><span class="bold">Race Day Parking Information:</span> [[S80:raceParking]]</p>
+]]
+
+
+[[?:::::::::::::::::::::::::: END ::::::::::::::::::::::::::]]]]

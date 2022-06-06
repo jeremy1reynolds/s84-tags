@@ -1,0 +1,24 @@
+[[T9:[[?::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   @require  -  C1:event_schedule
+   @accepts  -  S80:raceQuickSchedule
+   @accepts  -  S80:raceSchedule
+   @prefers  -  S80:liveSchedule
+   @failure  -  ""
+   @success  -  "Event begins at 7:00 a.m."
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+   <p>[[T9:[[?xx::x[[E47:[[S84:custom/common/trID]]:fr_info:1:event_schedule]]x::
+      Schedule coming soon!
+   ::
+      [[?xx::x[[T9:[[S80:liveSchedule]][[S80:raceSchedule]][[S80:raceQuickSchedule]]]]x::
+         Event begins at [[E47:[[S84:custom/common/trID]]:fr_info:1:event_schedule]].
+      ::
+         [[?xx::x[[S80:liveSchedule]]x:: 
+            [[?xx::x[[S80:raceSchedule]]x:: [[S80:raceQuickSchedule]] :: [[S80:raceSchedule]] ]]
+         :: [[S80:liveSchedule]] ]]         
+      ]]
+   ]]]]</p>
+
+
+[[?:::::::::::::::::::::::::: END ::::::::::::::::::::::::::]]]]

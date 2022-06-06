@@ -1,0 +1,43 @@
+[[T9:[[?:::::::::::::: ryo_grouplist.html :::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+  ::
+  ::  Roll Your Own API -- S450 Group Information
+  ::
+  ::  Will return a JSON object that is essentially an S450 tag result with everything stripped
+  ::  out except first/last names. Whitelisted groups are hard-coded into this file.
+  ::
+  ::  URL Params:
+  ::    pgwrap=n  ........always required if you don't want a bunch of HTML added to the result.
+  ::    callback=____  ...respond with JSONP using specified callback. Omit for regular JSON.
+  ::    gID=_________  ...the group requested (must match one of the whitelisted IDs in this file).
+  ::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+      [[?_12345_67890_::[[S334:gID]]::[[T9:
+        [[U8:text/javascript]][[?xx::x[[S334:callback]]x::::[[S334:callback]](]]{ "results": [[E130: 
+            
+            [[T8:[[E450:[[S334:gID]]:members]]]] " " concat
+            22 100000000 substring
+            [[T8:[[S334:gID]]]] "[" replaceall
+            [[T8:">]] "" replaceall
+            <li> [[T8:"]] replaceall
+            </li> [[T8:", ]] replaceall
+            ", </ul>" "]" replaceall
+
+        ]]}[[?xx::x[[S334:callback]]x::::)]]
+      ]]::Sorry, you are not authorized to access this list]]
+
+
+[[?:::::::::::::::::::::::::::::: Example JS ::::::::::::::::::::::::::::::
+
+
+  fetch('https://_____________/site/SPageNavigator/ryo_grouplist?pgwrap=n&gID=12345').then(response => {
+      return response.json();
+  }).then(data => {
+      const reply = data;
+      console.log(data);
+      return data;
+  })
+
+
+:::::::::::::::::::::::::::::: End ::::::::::::::::::::::::::::::]]]]

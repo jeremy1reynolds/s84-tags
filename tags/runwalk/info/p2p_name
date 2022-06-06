@@ -1,0 +1,43 @@
+[[T9:[[?::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   @failure  -  ""
+   @success  -  "Team Foo"
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+   [[?xx::x[[S334:PROXY_TYPE]][[S334:px]][[S334:team_id]]x::::
+      [[?xx::x[[S334:team_id]][[?x22x::x[[S334:PROXY_TYPE]]x::[[S334:PROXY_ID]]::]]x::
+
+         [[?::::::::::::: PERSONAL PAGE  :::::::::::::?]]
+         [[?xx::x[[S334:px]][[S120:dc:participantName]]x::::
+            [[?xx::x[[E48:[[S334:fr_id]]-[[S334:px]]:screenname]]x::
+               [[?xx::x[[S120:dc:participantName]]x::
+                  [[S120:dc:participantName]]
+               ::
+                  [[E48:[[S80:trID]]-[[S334:px]][[S334:PROXY_ID]]:cons.first_name]] [[E48:[[S80:trID]]-[[S334:px]][[S334:PROXY_ID]]:cons.last_name]]
+               ]]
+            ::
+               [[E48:[[S334:fr_id]]-[[S334:px]]:screenname]]
+            ]]
+         ]]
+
+      ::
+
+         [[?::::::::::::::: TEAM PAGE  :::::::::::::::?]]
+         [[E130:
+            [[T8:
+               Team [[E43:[[S80:trID]]:name:[[T9:
+                  [[?x26x::x[[S4]]x::
+                     [[S334:team_id]]
+                  ::
+                     [[S334:PROXY_ID]]
+                  ]]
+               ]]]]
+            ]]
+            "Team Team" "Team" replaceall
+            "Team team" "Team" replaceall
+         ]]
+
+      ]]
+   ]]
+
+
+[[?:::::::::::::::::::::::::::::: END ::::::::::::::::::::::::::::::]]]]

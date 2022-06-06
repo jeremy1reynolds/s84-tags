@@ -1,0 +1,27 @@
+[[T9:[[?:::::::::::::: bday-mm.dd.yyyy.reus :::::::::::::::::::::::::::::::::::::::::::::::::::::::
+  ::
+  ::  Outputs constituent birthday in "mm.dd.yyyy" format.
+  ::
+  ::  @references:   Constituent Record
+  ::
+  ::  @returns:      "06.20.1979"
+  ::  @fail_states:  birthday is unknown
+  ::  @fail_result:  ""
+  ::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+    [[?xx::x[[S1:birth_date]]x::::[[E130:
+      [[T8:[[S1:birth_date]]]]
+      ", "    "."    replaceall       ", "    "."    replaceall
+      "Jan "  "01."  replaceall       "Feb "  "02."  replaceall
+      "Mar "  "03."  replaceall       "Apr "  "04."  replaceall
+      "Jun "  "06."  replaceall       "Jul "  "07."  replaceall
+      "Aug "  "08."  replaceall       "Sep "  "09."  replaceall
+      "Oct "  "10."  replaceall       "Nov "  "11."  replaceall
+      "Dec "  "12."  replaceall
+    ]]]]
+
+
+
+[[?:::::::::::::::::::::::::::: END ::::::::::::::::::::::::::::]]]]

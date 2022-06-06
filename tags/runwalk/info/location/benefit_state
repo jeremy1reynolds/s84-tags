@@ -1,0 +1,13 @@
+[[T9:[[?::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   @require  -  C1:coordinator_phone (cancer stats state, step 3 fallback)
+   @returns  -  "Alabama"
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+   [[?xx::x[[E47:[[S84:custom/common/trID]]:fr_info:1:coordinator_phone]]x::
+      [[S84:custom/reusables/runwalk/info/location/pretty_state]]
+   ::
+      [[E47:[[S84:custom/common/trID]]:fr_info:1:coordinator_phone]]
+   ]]
+
+
+[[?:::::::::::::::::::::::::::::: END ::::::::::::::::::::::::::::::]]]]

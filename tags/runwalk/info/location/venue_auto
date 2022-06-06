@@ -1,0 +1,13 @@
+[[T9:[[?:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   @require  -  C1:event_location  (location settings fallback)
+   @failure  -  "in Arlington, VA"
+   @success  -  "at Pentagon Row Courtyard in Arlington, VA"
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+	[[?xx::x[[S84:custom/reusables/runwalk/info/location/venue_map_link]]x::::
+		at [[S84:custom/reusables/runwalk/info/location/venue_map_link]]
+	]] in [[S84:custom/reusables/runwalk/info/location/venue_city]], [[S84:custom/reusables/runwalk/info/location/venue_state]]
+
+
+[[?:::::::::::::::::::::::::: END ::::::::::::::::::::::::::]]]]

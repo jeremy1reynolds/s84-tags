@@ -1,0 +1,106 @@
+<html lang="en" translate="no">
+  <head>
+    <meta charset="utf-8">
+    <title>Scavenger Hunt!</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $("#guessField").submit(function(e) {
+        e.preventDefault();
+        const input = $("#guessTxt").val().replace(/[\W_]+/g,'');;
+        console.log(input);
+        fetch('https://support.zerocancer.org/site/SPageNavigator/ryo_bbcon?pgwrap=n&q=' + input)
+          .then(response => {
+            return response.text();
+          })
+          .then(data => {
+            const reply = data.trim();
+            // console.log(`Response: \n\t'${reply}'`);
+            if(!reply){
+              const sassy = [ 'Nope.', "That's not it.", 'Nah-uh.', 'Bzzzzz!', 'Wrong.', 'Guess again.', 'Sorry, no.',
+                              'I can do this all day.', 'No, but I still believe in you!', 'Sooooo close!' ];
+              $('#errMsg').text( sassy[Math.floor ( Math.random() * sassy.length )]);
+              return false;
+            }
+            $('#guessResult').html(reply);
+            let isImg = (!reply) ? '' :  data.match('img');
+            let isFrame = (!reply) ? '' :  data.match('frame');
+            if(isImg){
+              $('#guessBtn').val('Solution');
+            }
+            if(isFrame){
+              $('#guessBtn').val('Win');
+              $('iframe').focus();
+            }
+            $('#guessTxt').val('');
+            $('p#errMsg').text('');
+          });
+      });
+    });
+    </script>
+    <style>
+      body#gateway {
+        position: relative;
+        font-family: "Helvetica Neue", sans-serif;
+        padding: 1rem;
+      }
+      #gateway h1 {
+        margin-top: 30%;
+      }
+      #gateway > * {
+        position: relative;
+        text-align: center;
+        margin: 0 auto;
+      }
+      #guessField * {
+        margin: 1rem auto;
+        padding: .5rem 1rem;
+        font-size: 1.5rem;
+      }
+      #guessField input[type=text] {
+        width: 12rem;
+      }
+      #guessField input[type=submit]:hover {
+        background-color: #e2e2e2;
+      }
+      #guessField input {
+        font-weight: bold;
+        letter-spacing: .05rem;
+        text-align: center;
+        border: solid 1px black;
+      }
+      p#errMsg {
+        color: red;
+        font-size: 1.5rem;
+        font-style: italic;
+      }
+      #guessResult img {
+        height: auto;
+        max-width: 420px;
+      }
+      #theGoods h1, #theGoods .flex.w-80.mx-auto.items-center.mb-4.pl-6.pr-5 {
+        display: none !important;
+      }
+      a#formLink { 
+        padding: 1rem;
+        background: #42ff00;
+        font-size: 2rem;
+        line-height: 2;
+        color: rgb(0,0,238);
+      }
+      a#formLink:hover {
+        background: #39d603;
+        color: #ffffff;
+      }
+    </style>
+  </head>
+  <body id="gateway">
+    <div id="guessResult">
+        <h1>__________________________:</h1>
+    </div>
+    <form id="guessField" action="">
+        <input type="text" name="guess" id="guessTxt"> <input type="submit" value="Submit" for="guess" id="guessBtn" />
+    </form>
+    <p id="errMsg"></p>
+  </body>
+</html>

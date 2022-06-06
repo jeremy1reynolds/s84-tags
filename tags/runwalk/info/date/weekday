@@ -1,0 +1,20 @@
+[[T9:[[?::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   @require  -  C1:event_date
+   @failure  -  ""
+   @success  -  "Saturday"
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+
+   [[?x-1x::x[[E130:
+      [[T8:[[S84:custom/trID/greeting/day_date]]]] day indexof
+   ]]x::::
+      [[E130:
+         [[T8:[[S84:custom/trID/greeting/day_date]]]]
+         dup day indexof 3 + 0 swap substring
+      ]]
+   ]]
+
+
+
+[[?:::::::::::::::::::::::::: END ::::::::::::::::::::::::::]]]]

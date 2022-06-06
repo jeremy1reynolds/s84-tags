@@ -1,0 +1,11 @@
+[[T9:[[?:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   @require  -  C1:venue_city  C1:venue_state
+   @failure  -  ""
+   @success  -  "Alexandria, VA"
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+   [[S84:custom/reusables/runwalk/info/location/venue_city]][[?xx::x[[S84:custom/reusables/runwalk/info/location/venue_city]]x::::,]] [[S84:custom/reusables/runwalk/info/location/venue_state]]
+
+
+[[?:::::::::::::::::::::::::: END ::::::::::::::::::::::::::]]]]

@@ -1,0 +1,17 @@
+[[T9:[[?::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   @require  -  C1:event_date
+   @failure  -  ""
+   @success  -  "this weekend"  //  "on Monday"
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+   [[?xx::x[[S84:custom/trID/greeting/weekday]]x::::
+      [[?xSx::x[[E130: [[T8:[[S84:custom/trID/greeting/weekday]]]] 0 1 substring]]x::
+          this weekend
+        ::
+          on [[S84:custom/trID/greeting/weekday]]
+      ]]
+   ]]
+
+
+[[?:::::::::::::::::::::::::: END ::::::::::::::::::::::::::]]]]

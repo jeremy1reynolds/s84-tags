@@ -1,0 +1,40 @@
+[[T9:[[?x0x::x[[E130:[[S42:[[S84:custom/common/trID]]:days-to-event]] 7 <]]x::::
+[[?:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   @option  -  S80:1wk_open (bluebox text if registration is still open)
+   @option  -  S80:1wk_closed (bluebox text if registration is closed)
+   @option  -  S80:timing_url (timing company url when race is past)
+   @option  -  S80:fbGallery (facebook picture gallery id number for race)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+[[?x1x::x[[E130:[[E42:[[S84:custom/common/trID]]:days-to-event]] 1 <]]x::
+   [[?::::::::----------- EVENT HAS PASSED -------------::::::]]
+
+      <div class="bigbluebox">
+         Thank you [[E42:[[S84:custom/common/trID]]:city]] for helping us end prostate cancer!
+      </div>
+      [[?xx::x[[S80:timing_url]]x::::
+         <a href="[[S80:timing_url]]" class="rustbox" target="_blank">
+            Click here for race results
+         </a>
+      ]]
+      [[?xx::x[[S80:fbGallery]]x::::
+         <div style="display:block; margin-top: 35px; text-align: center;" data-show-text="true" class="fb-post" data-width="500" data-href="https://www.facebook.com/media/set/?set=a.[[S80:fbGallery]]"></div>
+      ]]
+
+
+:: [[?x1x2x::x[[S42:[[S84:custom/common/trID]]:status]]x::
+   [[?::::::::----------- REGISTRATION OPEN -------------::::::]]
+
+      <div class="bigbluebox">[[S80:1wk_open]]</div>
+
+   ::
+   [[?::::::::----------- REGISTRATION CLOSED -------------::::::]]
+
+      <div class="bigbluebox">[[S80:1wk_closed]]</div>
+
+   ]]
+]]
+
+
+[[?:::::::::::::::::::::::::: END ::::::::::::::::::::::::::]]]]]]

@@ -1,0 +1,16 @@
+[[T9:[[?::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   @math_of  -  COUNT: Donors + Runners
+   @rounded  -  down, nearest 10
+   @example  -  "More than [120] people joined the cause"
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+   [[E130:
+      [[T8:[[E42:[[S84:custom/common/trID]]:num-participants]]]]
+      [[T8:[[E42:[[S84:custom/common/trID]]:num-donors]]]] +
+      4 - 10 roundmult currency dup 1 swap "." indexof substring
+   ]]
+
+
+
+[[?:::::::::::::::::::::::::: END ::::::::::::::::::::::::::]]]]

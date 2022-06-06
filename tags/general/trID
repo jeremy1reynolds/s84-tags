@@ -1,0 +1,35 @@
+[[T9:[[?:::::::::::::: trID :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+  ::
+  ::  Outputs current TeamRaiser ID as a text string. Similar code to BlackBaud's trID tag,
+  ::  but outputs to string instead of session variable.
+  ::
+  ::  @references:    TeamRaiser Context
+  ::
+  ::  @returns:       "1234"
+  ::  @fail_states:   Missing TR Context
+  ::  @fail_result:   ""
+  ::  
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+    [[?xx::x[[S42:0:fr-id]]x::
+
+      [[?[[?x9x::x[[S4]]x::T::]]::T::
+        [[?xx::x[[S120:dc:teamRaiserId]]x:::: [[S120:dc:teamRaiserId]] ]]::
+
+        [[?xx::x[[S334:FR_ID]]x::
+
+          [[?xx::x[[S334:fr_id]]x::
+            [[S80:trID]]
+          ::
+            [[S334:fr_id]]
+          ]]
+
+        ::[[S334:FR_ID]]]]
+
+      ]]
+
+    ::[[S42:0:fr-id]]]]
+
+
+[[?:::::::::::::::::::::::::::::: END :::::::::::::::::::::::::::::::]]]]

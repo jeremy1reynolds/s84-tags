@@ -1,0 +1,13 @@
+[[T9:[[?::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   @require  -  C1:event_date / C1:event_schedule
+   @failure  -  "on September 3, 2019"
+   @success  -  "at 8:00 a.m. on Saturday, September 3, 2019"
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+    [[?xx::x[[S84:custom/trID/greeting/time]]x::::
+       at [[S84:custom/trID/greeting/time]]
+    ]] on [[S84:custom/trID/greeting/day_date]]
+
+
+[[?:::::::::::::::::::::::::: END ::::::::::::::::::::::::::]]]]

@@ -1,0 +1,40 @@
+[[T9:[[?:::::::::::::: lowercase ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+  ::
+  ::  Homemade S130 operator, lowercases string.
+  ::
+  ::  @references:    current RPN expression
+  ::
+  ::  @returns:       lowercase string  (e.g. "RaNDOm StriNG" --> "random string" )
+  ::  @fail_states:   Would print its guts if you don't have it in an S/E130 tag.
+  ::  
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+      "A"     "a"     replaceall
+      "B"     "b"     replaceall
+      "C"     "c"     replaceall
+      "D"     "d"     replaceall
+      "E"     "e"     replaceall
+      "F"     "f"     replaceall
+      "G"     "g"     replaceall
+      "H"     "h"     replaceall
+      "I"     "i"     replaceall
+      "J"     "j"     replaceall
+      "K"     "k"     replaceall
+      "L"     "l"     replaceall
+      "M"     "m"     replaceall
+      "N"     "n"     replaceall
+      "O"     "o"     replaceall
+      "P"     "p"     replaceall
+      "Q"     "q"     replaceall
+      "R"     "r"     replaceall
+      "S"     "s"     replaceall
+      "T"     "t"     replaceall
+      "U"     "u"     replaceall
+      "V"     "v"     replaceall
+      "W"     "w"     replaceall
+      "X"     "x"     replaceall
+      "Y"     "y"     replaceall
+      "Z"     "z"     replaceall
+
+[[?:::::::::::::::::::::::::::::: END ::::::::::::::::::::::::::::::]]]]

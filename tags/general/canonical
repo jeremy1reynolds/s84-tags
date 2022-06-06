@@ -1,0 +1,178 @@
+[[T9:[[?:::::::::::::: canonical ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+  ::
+  ::  Convio can create literally infinite URL combinations for a single page. This script
+  ::  attempts to whittle down the variations by reordering necessary parameters, removing
+  ::  unnecessary and/or sensitive ones, and adding human-readable hits where possible.
+  ::
+  ::  Works by running the product-generated URL through a battery of tests to determine 
+  ::  if a given part should be output. Successful strings are spit out using S130's "print"
+  ::  operator, unsuccessful strings are blanked, and everything is concatenated at the end.
+  ::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+[[?:::::::::: Silently fallback default session vars if they're missing ::::::::::]]
+
+  [[?xx::x[[S80:vanitySlug]]x::[[U0:secCat=RunWalk]]::]]
+  [[?xx::x[[S80:vanitySite]]x::[[U0:vanitySite=zerocancer.run]]::]]
+  [[?xx::x[[S80:vanityHomepage]]x::[[U0:vanityHomepage=RunWalk_Home]]::]]
+
+[[?[[E130: [[T8:[[S8]]]] "/" "" replaceall "___" concat ]]::[[S80:vanityHomepage]]___::
+
+  http://[[S80:vanitySite]]
+
+::
+
+[[E130:
+  
+  [[?x17x22x::x[[S4]]x::                                [[?:::::: SSurvey ::::::]]
+    https://support.zerocancer.org/site/Survey?ACTION_REQUIRED=URI_ACTION_USER_REQUESTS&SURVEY_ID=[[S334:SURVEY_ID]]
+  ::
+    [[?x19x23x200x201x::x[[S4]][[S334:pc2_page]]x::       [[?:::::: PageBuilder ::::::]]
+
+      [[?:::::: Start with existing URL ::::::]]
+        [[T8:[[S8]]]]
+      
+      [[?:::::: remove jSessionID ::::::]]
+        [[?[[S8]]::jsessionid::
+          "/;" ";" replaceall
+          dup dup dup
+          ";jsessionid" indexof swap
+          "?" indexof substring
+          "" replaceall
+        ::]]
+
+      [[?:::::: convert PageServer to PageNavigator ::::::]]
+        "/?" "?" replaceall
+        dup "?" indexof 0 swap substring
+        [[T8:PageServer]] [[T8:PageNavigator/[[S334:pagename]]]] replaceall
+        [[T8:.html]] "" replaceall
+        [[T8:[[?[[S8]]::Participant_Center::[[S84:custom/common/prod/content_id.reus]]::]]]] "[[S80:vanityHomepage]]" replaceall
+        print
+    ::
+
+      [[?:::::: Starting URL ::::::]]
+        [[?xentryx::x[[S334:pg]][[?xxundefinedx::x[[S84:custom/common/event_slug]]x::F::]]x::
+          [[T8:https://[[S80:vanitySite]]]] print                     [[?:::::: City Entry Page ::::::]]
+        ::
+          [[?xx::x[[S334:pc2_page]][[?[[S8]]::Participant_Center::pc3::]]x::   [[?:::::: PC2/3 ::::::]]
+            [[S11:26:unformatted]]/[[S80:vanitySlug]] print
+          ::                                                                   [[?:::::: TR ::::::]]
+            [[E11:[[S4]]:unformatted]]/[[S80:vanitySlug]] print
+          ]]
+        ]]
+
+      [[?:::::: city ::::::]]
+        [[?xx::x[[S84:custom/common/event_slug]]x::::
+          [[T8:/[[S84:custom/common/event_slug]]]] print
+        ]]
+
+      [[?:::::: fundraiser info ::::::]]
+        [[?xpersonalx20xPC3x::x[[S334:pg]][[S334:PROXY_TYPE]][[?xx::x[[S334:pc2_page]]x::::PC3]]x::
+          [[T8:/[[T1:[[E48:[[S80:trID]]-[[S334:px]][[S334:PROXY_ID]]:cons.first_name]]]]+]]
+          "/+" "/" replaceall print
+          [[T1:[[E48:[[S80:trID]]-[[S334:px]][[S334:PROXY_ID]]:cons.last_name]]]]
+          print
+        ::]]
+
+      [[?:::::: team info ::::::]]
+        [[?xteamx22x::x[[S334:pg]][[S334:PROXY_TYPE]]x::
+          [[T8:/[[T1:[[E43:[[S80:trID]]:name:[[S334:team_id]][[S334:PROXY_ID]]]]]]]]
+          "+" "" replaceall
+          "%2F" "-" replaceall print
+        ::]]
+
+      [[?:::::: fix incorrect proxy types ::::::]]
+        [[?x1-20x::x[[E130: [[T8:&PROXY_ID=[[S334:PROXY_ID]]]] 99999 <]]-[[S334:PROXY_TYPE]]x::
+          "FR_ID" "fr_id" replaceall
+          [[T8:&PROXY_ID=[[S334:PROXY_ID]]]] "" replaceall
+          [[T8:&PROXY_TYPE=[[S334:PROXY_TYPE]]]] "" replaceall
+        ::]]
+    ]]
+  ]]
+
+  [[?:::::: remove extra formatting ::::::]]
+    [[T8:[[S8]]]] "&amp;" "&" replaceall
+    [[T8:mfc_pref=T]] "" replaceall
+    [[T8:.html]] "" replaceall
+
+  [[?:::::: extract URL vars ::::::]]
+    dup dup "?" indexof swap length substring
+
+  [[?:::::: no PageServer var ::::::]]
+    [[?x19x23x::x[[S4]]x::
+      [[T8:pagename=[[S334:pagename]]]] "" replaceall
+    ::]]
+
+  [[?:::::: no TR entry page vars if vanity url is possible instead ::::::]]
+    [[?xentryx::x[[S334:pg]][[?xxundefinedx::x[[S84:custom/common/event_slug]]x::F::]]x::
+      [[T8:fr_id=[[S334:fr_id]]]] "" replaceall
+      [[T8:pg=entry]] "" replaceall
+    ::]]
+
+  [[?:::::: no participant center indexing ::::::]]
+    [[?xx::x[[S334:pc2_page]][[?[[S8]]::Participant_Center::pc3::]]x::::
+      [[?xx::x[[S334:fr_id]]x::
+        [[T8:pc2_page=[[S334:pc2_page]]]] "" replaceall
+        [[T8:fr_id=]] "" replaceall
+      ::
+        [[?xx::x[[E48:[[S334:fr_id]]:part-type-id]]x::
+          [[T8:pc2_page=[[S334:pc2_page]]]] "pg=entry" replaceall
+        ::
+          [[T8:pc2_page=[[S334:pc2_page]]]] "pg=personal&px=[[S1:cons_id]]" replaceall
+        ]]
+      ]]
+    ]]
+
+  [[?:::::: no useless vars ::::::]]
+    [[T8:NONCE_TOKEN=[[S334:NONCE_TOKEN]]]] "" replaceall
+    [[T8:_ga=[[S334:_ga]]]] "" replaceall
+    [[T8:idb=[[S334:idb]]]] "" replaceall
+    [[T8:devmode=[[S334:devmode]]]] "" replaceall
+    [[T8:fbclid=[[S334:fbclid]]]] "" replaceall
+    [[T8:jd=[[S334:jd]]]] "" replaceall
+    [[T8:JD=[[S334:JD]]]] "" replaceall
+    [[T8:jdtest=[[S334:jdtest]]]] "" replaceall
+    [[T8:JDtest=[[S334:JDtest]]]] "" replaceall
+    [[T8:testjd=[[S334:testjd]]]] "" replaceall
+    [[T8:testJD=[[S334:testJD]]]] "" replaceall
+    [[T8:test=[[S334:test]]]] "" replaceall
+    [[T8:TEST=[[S334:TEST]]]] "" replaceall
+    [[T8:testing=[[S334:testing]]]] "" replaceall
+    [[T8:TESTING=[[S334:TESTING]]]] "" replaceall
+    [[T8:USERNAME=[[S334:USERNAME]]]] "" replaceall
+    [[T8:Password=[[S334:Password]]]] "" replaceall
+    [[T8:NEXTURL=[[S334:NEXTURL]]]] "" replaceall
+    [[T8:s_src=[[S334:s_src]]]] "" replaceall
+    [[T8:s_subsrc=[[S334:s_subsrc]]]] "" replaceall
+    [[T8:s_AffiliateSecCatId=[[S334:s_AffiliateSecCatId]]]] "" replaceall
+    [[T8:type=fr_informational]] "" replaceall
+
+  [[?:::::: reorder informational page vars ::::::]]
+    [[?xinformationalx::x[[S334:pg]]x::
+      [[T8:pg=informational]] "" replaceall
+      [[T8:sid=[[S334:sid]]]] "" replaceall
+      [[T8:fr_id=[[S334:fr_id]]]] "" replaceall
+      "&&" "&" replaceall "&&" "&" replaceall
+      [[T8:&pg=informational&fr_id=[[S334:fr_id]]&sid=[[S334:sid]]]] concat
+    ::]]
+
+  [[?:::::: clean up removed entries ::::::]]
+    "&&" "&" replaceall "&&" "&" replaceall
+    "&&" "&" replaceall "&&" "&" replaceall
+    "&&" "&" replaceall "&&" "&" replaceall
+    "&&" "&" replaceall "?&" "?" replaceall
+    "//" "/" replaceall "//" "/" replaceall
+    "//" "/" replaceall "/?" "?" replaceall
+
+  [[?:::::: kill query if nothing's left ::::::]]
+    "_________" concat
+    "&_________" "" replaceall
+    "?_________" "" replaceall
+    "_________" "" replaceall
+
+]]
+
+]]
+
+[[?:::::::::::::::::::::::::::::: END ::::::::::::::::::::::::::::::]]]]

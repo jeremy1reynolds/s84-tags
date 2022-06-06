@@ -1,0 +1,35 @@
+[[T9:[[?:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   @require  -  S80:reg_types            (format 5K1MD4DS4D)
+   @require  -  S51:reus_reg_types_txt
+   @returns  -  "5K run/walk, 1 mile walk, Kids' Superhero Dash for Dad, 
+                 and virtual Snooze for Dudes program"
+   @note  -     we haven't been using this method since 2019
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+
+   [[?xx::x[[S80:reg_types]]x::
+      [[?:::::::: fallback if setting is missing ::::::::]]
+         [[S51:reus_rw_event_details]][[S80:event_details]]
+   ::
+      [[E130:  [[T8:[[S80:reg_types]]]]
+         [[?:::::::: swap text ::::::::]]
+            [[S51:reus_reg_types_txt]]
+
+         [[?:::::::: remove ending 2 chars ::::::::]]
+            dup 0 swap length 2 - substring
+
+         [[?:::::::: extract before final comma ::::::::]]
+            dup dup 0 swap "," lastindexof substring swap
+
+         [[?:::::::: extract after final comma ::::::::]]
+            dup dup "," lastindexof 2 + swap length substring
+
+         [[?:::::::: final "and" ::::::::]]
+            ", and " swap concat concat
+      ]]
+   ]]
+
+
+
+[[?:::::::::::::::::::::::::::::: END :::::::::::::::::::::::::::::::::::::]]]]

@@ -1,0 +1,28 @@
+[[T9:[[?:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   @require  -  C1:map_link
+   @failure  -  "Venue Name"
+   @success  -  "<a href="C1:map_link">Location Name</a>"
+ ---------------------------------------------------------------------
+   @S80 venue_linkURL  -  override C1:map_link (no html = text only)
+   @S80 venue_linkTXT  -  hyperlink's anchor text
+   @S80 venue_linkCSS  -  hyperlink's inline css
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+   [[?xx::x[[S80:venue_linkURL]]x::
+      [[U0:venue_linkURL=[[E47:[[S84:custom/common/trID]]:fr_info:1:map_link]]]]
+   ::]]
+   [[?x-1x::x[[E130:[[T8:[[S80:venue_linkURL]]]] http indexof]]x::
+      [[E42:[[S84:custom/common/trID]]:location-name]]
+   ::
+      <a href="[[S80:venue_linkURL]]" style="[[S80:venue_linkCSS]]" target="_blank">
+         [[T9:[[?xx::x[[S80:tr_venue_linkTXT]]x::
+            [[E42:[[S84:custom/common/trID]]:location-name]]
+         ::
+            [[S80:venue_linkTXT]]
+         ]]]]
+      </a>
+   ]]
+
+
+
+[[?:::::::::::::::::::::::::: END ::::::::::::::::::::::::::]]]]

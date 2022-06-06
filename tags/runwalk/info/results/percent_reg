@@ -1,0 +1,16 @@
+[[T9:[[?::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   @require  -  S80:corpID
+   @options  -  S80:stretch_goal          (number)
+   @math_of  -  % OF GOAL: Reg + P2P + Sponsors
+   @example  -  "With registration and donations, we're at [55%]!"
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+   [[E130:
+      [[T8: [[S84:custom/trID/results/cash_reg]] ]]
+      [[T8: [[S84:custom/trID/results/goal]] ]]
+      / 100 * 0.499 - 1 roundmult
+   ]]%
+
+
+[[?:::::::::::::::::::::::::: END ::::::::::::::::::::::::::]]]]

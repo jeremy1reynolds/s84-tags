@@ -1,0 +1,24 @@
+[[T9:[[?:::::::::::::: cons_src :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+  ::
+  ::  Takes an educated guess about whether the constituent was self-registered, or
+  ::  a pre-existing record, or was created via admin and/or add-on registration.
+  ::  Useful for conditionalizing email autoresponders and login welcome messages.
+  ::
+  ::  @references:    System Data
+  ::
+  ::  @returns:       "self" || "old" || "new"
+  ::  
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+    [[?x[[S1:cons_id]]x::x[[S1:created_by]]x::
+      self
+    ::
+    [[E130:
+      [[T8:[[S9:pattern:MMM d, yyyy]]]]
+      [[T8:[[S1:creation_date]]]] ==
+      0 "old" replaceall
+      1 "new" replaceall
+    ]]]]
+
+[[?:::::::::::::::::::::::::::::: END ::::::::::::::::::::::::::::::]]]]

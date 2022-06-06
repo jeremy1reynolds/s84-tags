@@ -1,0 +1,21 @@
+[[T9:[[?::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   @require  -  S80:corpID
+   @math_of  -  THERMOMETER: including reg fees
+   @rounded  -  nearest dollar
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+
+<style type="text/css"><!--
+  #frStatus1 div.thermometer-inner { width: [[S84:custom/trID/results/percent_noreg]] !important; }
+--></style>
+<script type="text/javascript">
+  $( document ).ready(function() {
+     $("#frStatus1 span.amount-raised-value").html("[[S84:custom/trID/results/cash_noreg]]");
+     $("#frStatus1 span.amount-percentage-value").html("[[S84:custom/trID/results/percent_noreg]]");
+  });
+</script>
+
+
+
+[[?:::::::::::::::::::::::::: END ::::::::::::::::::::::::::]]]]

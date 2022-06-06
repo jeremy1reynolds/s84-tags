@@ -1,0 +1,41 @@
+[[T9:[[?:::::::::::::: gform_prefill_link.reus ::::::::::::::::::::::::::::::::::::::::::::::::::::
+  ::
+  ::  Renders a "button" email link to our standing donor survey, including URL params
+  ::  to pre-fill the Google Forms fields.
+  ::  
+  ::  @references:    Constituent Record
+  ::  
+  ::  @returns:       "button link" HTML Table & Anchor Reference
+  ::  @fail_states:   constituent details not set
+  ::  @fail_result:   link still works, but missing fields won't pre-fill
+  ::  
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+    [[S84:custom/common/email/button/blue/top.html]]
+       <a href="https://docs.google.com/forms/d/e/[[T9:
+              1FAIpQLSfn9rRpc_vbda1rUdZ3dlf1hZQrxHnQuKQmQ-VeR4vAtEmRxA/viewform?usp=pp_url
+            ]][[T9:
+              [[?xx::x[[S1:primary_email]]x::::      &entry.881345940=[[S1:primary_email]]
+            ]]]][[T9:
+              [[?xx::x[[S1:home_phone]]x::::         &entry.704999110=[[T1:[[S1:home_phone]]]]
+            ]]]][[T9:
+              [[?xx::x[[S1:cons_ethnicity]]x::::     &entry.754469191=[[T1:[[S1:cons_ethnicity]]]]
+            ]]]][[T9:
+              [[?xx::x[[S1:cons_gender]]x::::        &entry.1472909518=[[S1:cons_gender]]
+            ]]]][[T9:
+              [[?xtruex::x[[S1:custom_boolean17]]x:: &entry.2003268799=Yes::]]
+            ]][[T9:
+              [[?xx::x[[S1:birth_date]]x::::&entry.400885182=[[E130:
+                [[T8:[[S84:custom/reusables/general/bday-yyyy.mm.dd.reus]]]] "." "-" replaceall
+              ]]]]
+            ]]"
+          [[S84:custom/common/email/button/blue/btn_link.html]]
+          target="_blank">
+       Take the Donor Survey
+       </a>
+    [[S84:custom/common/email/button/bottom.html]]
+     
+
+
+[[?:::::::::::::::::::::::::::: END ::::::::::::::::::::::::::::]]]]

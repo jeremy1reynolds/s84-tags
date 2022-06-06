@@ -1,0 +1,23 @@
+[[T9:[[?:::::::::::::: bday-yyyy.mm.dd.reus :::::::::::::::::::::::::::::::::::::::::::::::::::::::
+  ::
+  ::  Outputs constituent birthday in "mm.dd.yyyy" format.
+  ::
+  ::  @references:    constituent record data
+  ::  @dependencies:  S84 -- bday-mm.dd.yyyy.reus
+  ::
+  ::  @returns:       "1979.06.20"
+  ::  @fail_states:   dependency is missing or birthday isn't set
+  ::  @fail_result:   ""
+  ::  
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+    [[?xx::x[[S84:custom/reusables/general/bday-mm.dd.yyyy.reus]]x::::[[E130:
+      [[T8:[[S84:custom/reusables/general/bday-mm.dd.yyyy.reus]]]]
+      dup dup length dup 4 - swap substring "." concat
+      swap dup length 5 - 0 swap substring concat
+    ]]]]
+
+
+
+[[?:::::::::::::::::::::::::::: END ::::::::::::::::::::::::::::]]]]

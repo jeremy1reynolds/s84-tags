@@ -1,0 +1,255 @@
+[[U0:trID=[[S84:custom/common/trID]]]]
+[[S84:custom/common/email/containers/callout/lt_blue_top.html]]
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/days_away[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/days_away]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/race_schedule[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info//race_schedule]]
+  </div>
+
+<!-- [[?:::::::::
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info//reg_types[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info//reg_types]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info//reg_types_simple[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info//reg_types_simple]]
+  </div>
+]] -->
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/state_stats[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/state_stats]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/city_link_button[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/city_link_button]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/final_week[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/final_week]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/p2p_name[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/p2p_name]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/recruitment_contact[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/recruitment_contact]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/results[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/results]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/date[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/date]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/goal[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/goal]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/packet_parking[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/packet_parking]]
+  </div>
+
+<!-- [[?:::::::::
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/reg_types[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/reg_types]]
+  </div>
+]] -->
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/sponsor[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/sponsor]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/date/day_date[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/date/day_date]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/date/month[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/date/month]]
+  </div>
+
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/date/month_day_year[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/date/month_day_year]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/date/weekday[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/date/weekday]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/date/year[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/date/year]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/date/at_time_on_date [[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/date/at_time_on_date]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/date/day_date_at_time[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/date/day_date_at_time]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/date/month_day[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/date/month_day]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/date/time[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/date/time]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/date/weekend[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/date/weekend]]
+  </div>
+
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/location/benefit_state[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/location/benefit_state]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/location/official_state[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/location/official_state]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/location/pretty_venue_state[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/location/pretty_venue_state]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/location/venue_auto[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/location/venue_auto]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/location/venue_city_state[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/location/venue_city_state]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/location/venue_name[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/location/venue_name]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/location/official_city[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/location/official_city]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/location/pretty_state[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/location/pretty_state]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/location/venue_city[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/location/venue_city]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/location/venue_map_link[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/location/venue_map_link]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/location/venue_state[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/location/venue_state]]
+  </div>
+
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/results/cash_noreg_1k[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/results/cash_noreg_1k]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/results/cash_prev_year_1k[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/results/cash_prev_year_1k]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/results/cash_reg_1k[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/results/cash_reg_1k]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/results/last_year_total[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/results/last_year_total]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/results/percent_reg[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/results/percent_reg]]
+  </div>
+
+<!-- [[?:::::::::
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/results/thermometer_reg[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/results/thermometer_reg]]
+  </div>
+]] -->
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/results/cash_noreg[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/results/cash_noreg]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/results/cash_prev_year[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/results/cash_prev_year]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/results/cash_reg[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/results/cash_reg]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/results/count_run_give[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/results/count_run_give]]
+  </div>
+
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/results/percent_noreg[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/results/percent_noreg]]
+  </div>
+
+<!-- [[?:::::::::
+  <strong style="font-size:1rem; margin-top: .2rem">[[LL]]S84:custom/reusables/runwalk/info/results/thermometer_noreg[[LR]]</strong style="font-size:1rem; margin-top: .2rem">
+  <div style="margin:10px; padding:10px; border:solid 1px #bbb; background-color: #eee; font-size:1rem">
+    [[S84:custom/reusables/runwalk/info/results/thermometer_noreg]]
+  </div>
+]] -->
+
+[[S84:custom/common/email/containers/callout/bottom.html]]

@@ -1,0 +1,15 @@
+[[T9:[[?::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   @require  -  S80:corpID
+   @require  -  S80:lastYearCorpID
+   @math_of  -  RAISED: Registration Fees + P2P + Sponsors
+   @rounded  -  down, nearest thousand
+   @example  -  "The event raised more than [$123,000]!"
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+   [[E130:
+      [[T8: [[S84:custom/trID/results/cash_prev_year]] ]]
+      499 - 1000 roundmult currency dup
+      length 0 swap 3 - substring 
+   ]]
+
+[[?:::::::::::::::::::::::::: END ::::::::::::::::::::::::::]]]]

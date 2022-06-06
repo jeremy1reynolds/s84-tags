@@ -1,0 +1,16 @@
+[[T9:[[?:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   @require  -  S80:reg_types            (format 5K1MD4DS4D)
+   @require  -  S51:reus_reg_types_txt
+   @returns  -  "5K run/walk <br>
+                 1 mile walk <br>
+                 Kids' Superhero Dash for Dad <br>
+                 virtual Snooze for Dudes program <br>"
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+   [[E130:
+      [[T8:[[S80:reg_types]]]]    [[S51:reus_reg_types_txt]]
+      [[T8:, ]]   [[T8: <br>]]   replaceall
+   ]]
+
+
+[[?:::::::::::::::::::::::::::::: END :::::::::::::::::::::::::::::::::::::]]]]

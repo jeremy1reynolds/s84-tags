@@ -1,0 +1,18 @@
+[[T9:[[?::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   @require  -  S80:corpID
+   @math_of  -  RAISED: P2P + Sponsors
+   @rounded  -  down, nearest dollar
+   @example  -  "[$93,520] was given by donors and sponsors"
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+
+   [[E130:
+      [[T8:[[E42:[[S84:custom/common/trID]]:dollars]]]]
+      [[T8:[[E15:[[S80:corpID]]:amountRaised_formatted]]]] +
+      currency dup length 0 swap 3 - substring
+   ]]
+
+
+
+[[?:::::::::::::::::::::::::: END ::::::::::::::::::::::::::]]]]

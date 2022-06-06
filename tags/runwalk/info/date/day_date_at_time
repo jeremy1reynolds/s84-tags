@@ -1,0 +1,12 @@
+[[T9:[[?::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   @require  -  C1:event_date / C1:event_schedule
+   @failure  -  "September 3, 2019"
+   @success  -  "Saturday, September 3, 2019 at 8:00 a.m."
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+    [[S84:custom/reusables/runwalk/info/date/day_date]][[T9:
+    ]][[?xx::x[[S84:custom/trID/greeting/time]]x:::: at [[S84:custom/reusables/runwalk/info/date/time]]]]
+
+
+[[?:::::::::::::::::::::::::: END ::::::::::::::::::::::::::]]]]

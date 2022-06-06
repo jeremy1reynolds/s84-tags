@@ -1,0 +1,15 @@
+[[T9:[[?:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   @about    -  Chooses "venue" over "named" state location
+   @require  -  C1:event_location_state  (Step 3 location settings fallback)
+   @success  -  "VA"
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+   [[?xx::x[[E47:[[S84:custom/common/trID]]:fr_info:1:event_location_state]]x::
+      [[E42:[[S84:custom/common/trID]]:state]]
+   ::
+      [[E47:[[S84:custom/common/trID]]:fr_info:1:event_location_state]]
+   ]]
+
+
+[[?:::::::::::::::::::::::::: END ::::::::::::::::::::::::::]]]]

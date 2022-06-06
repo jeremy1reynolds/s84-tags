@@ -1,0 +1,19 @@
+[[T9:[[?::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   @require  -  S80:corpID
+   @math_of  -  RAISED: P2P + Sponsors
+   @rounded  -  down, nearest thousand
+   @example  -  "Generous donors gave more than [$93,000]!"
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+
+   [[E130:
+      [[T8: [[S84:custom/trID/results/cash_noreg]] ]]
+      499 -
+      1000 roundmult currency dup
+      length 0 swap 3 - substring 
+   ]]
+
+
+
+[[?:::::::::::::::::::::::::: END ::::::::::::::::::::::::::]]]]

@@ -1,0 +1,18 @@
+[[T9:[[?::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   @require  -  S80:corpID
+   @math_of  -  RAISED: Reg Fees + P2P + Sponsors
+   @rounded  -  down, nearest dollar
+   @example  -  "The event raised [$123,520]!"
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+
+
+   [[E130:
+      [[T8: [[S84:custom/trID/results/cash_noreg]] ]]
+      [[T8: [[E42:[[S84:custom/common/trID]]:reg-fees]] ]] +
+      currency dup length 0 swap 3 - substring
+   ]]
+
+
+
+[[?:::::::::::::::::::::::::: END ::::::::::::::::::::::::::]]]]

@@ -1,0 +1,17 @@
+[[T9:[[?::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   @setting  -  S80:trID
+   @failure  -  red button linked to national RW site
+   @success  -  red button linked to city RW site
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]]
+
+   [[?x0x-1xnullx::x[[S80:trID]]x::
+      [[S84:custom/common/email/button/blue/small_top.html]]
+   	  <a href="https://support.zerocancer.org/site/SPageNavigator/RunWalk_Home" [[S84:custom/common/email/button/small_btn_link.html]]>Website</a>
+      [[S84:custom/common/email/button/small_bottom.html]]
+   ::
+      [[S84:custom/common/email/button/blue/small_top.html]]
+   	  <a href="https://support.zerocancer.org/site/TR/[[T1:[[E42:[[S80:trID]]:city]]]]?autologin=TRUE&fr_id=[[S80:trID]]&pg=entry" [[S84:custom/common/email/button/small_btn_link.html]]>Website</a>
+      [[S84:custom/common/email/button/small_bottom.html]]
+   ]]
+
+[[?:::::::::::::::::::::::::::::: END ::::::::::::::::::::::::::::::]]]]
